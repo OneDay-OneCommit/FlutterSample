@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'models/user.dart';
+
 void main() {
   runApp(const MyApp());
 
-  User me = User(1,"박주영");
+  User me = User(1, "박주영");
 }
 
 class MyApp extends StatelessWidget {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Hello World!',
       theme: ThemeData(
         // This is the theme of your application.
         //
